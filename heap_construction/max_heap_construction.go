@@ -96,12 +96,12 @@ func main() {
 	// apply Insert method
 	// append a new value, 50
 	minHeap.Insert(50)
-	fmt.Println("max heap after insert value 2: ", *minHeap)
+	fmt.Println("max heap after insert value 50: ", *minHeap)
 }
 
 /* output
 build max heap:  [91 31 40 25 10 15 1 9 22]
 root value:  91
 max heap after Remove root:  [40 31 22 25 10 15 1 9]
-max heap after insert value 2:  [50 40 22 31 10 15 1 9 25]
+max heap after insert value 50:  [50 40 22 31 10 15 1 9 25]
 */
